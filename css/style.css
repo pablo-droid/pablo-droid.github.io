@@ -1,6 +1,11 @@
 body {
-	background-color: rgb(10, 10, 10);
 	font-family: 'Courier New', monospace;
+	font-size: 32px;
+	background-image: url("../data/background.jpg");
+	background-color: rgb(4, 4, 4);
+	background-attachment:fixed;
+	background-size: cover;
+	margin: 400px;
 }
 h1 {
 	text-align: center;
@@ -17,21 +22,43 @@ p {
 span {
 	color: rgb(108, 33, 255);
 }
-ul li{
+ul li {
   display: inline-block;
 }
-.topnav {
-	overflow: hidden;
+a {
+	color: rgb(33, 108, 255);
 }
-.topnav a{
-	float: right;
-	color: #f2f2f2;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 17px;
+iframe {
+	margin: auto;
+    display: block;
 }
 img {
     width: 256;
     height: auto;
-}*/
+}
+.selectable {
+	border: 5px solid rgb(32, 32, 32);
+}
+.selectable:hover {
+    border: 5px solid rgb(255, 33, 108);
+}
+.link {
+	color: rgb(255, 108, 33);
+}
+.cool {
+	display: block;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.bottom_left {
+  position: absolute;
+  bottom: 8px;
+  left: 0px;
+  background-color: rgba(40, 40, 40, 0.7);
+}
+.download {
+	color: rgb(33, 255, 108);
+}
