@@ -39,8 +39,11 @@ a {
 	color: rgb(33, 108, 255);
 }
 iframe {
-	margin: auto;
-    display: block;
+	display: inline-block;
+	max-width: 960;
+	max-height: 540;
+	width: 100%;
+	height: calc((9/16)*100vw); /* this is from benat hehe*/
 }
 img {
 	max-width: 100%;
