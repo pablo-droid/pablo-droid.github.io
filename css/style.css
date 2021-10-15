@@ -45,9 +45,11 @@ iframe {
 	width: 100%;
 	height: calc((9/16)*100vw); /* this is from benat hehe*/
 }
-img {
-	max-width: 100%;
-    height: auto;
+img, video {
+	max-width: 960;
+	max-height: 540;
+	width: 100%;
+	height: auto;
 }
 .selectable {
 	border: 5px solid rgb(32, 32, 32);
