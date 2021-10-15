@@ -45,7 +45,7 @@ iframe {
 	width: 100%;
 	height: calc((9/16)*100vw); /* this is from benat hehe*/
 }
-img video {
+img, video {
 	max-width: 100%;
     height: auto;
 }
